@@ -1,7 +1,5 @@
 import Head from 'next/head'
-import Link from 'next/link'
-import Components from '../components'
-
+import LatestNews from './latestNews'
 
 export default function Home() {
   return (
@@ -12,9 +10,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
       </Head>
-      <div>
-        <Components />
-      </div>
+      <LatestNews />
     </>
   )
 }

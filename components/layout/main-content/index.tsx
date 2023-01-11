@@ -1,8 +1,6 @@
 import Head from 'next/head'
-import { Inter } from '@next/font/google'
-import Header from './header'
 
-export default function Components() {
+export default function MainContent() {
   return (
     <>
       <Head>
@@ -12,7 +10,7 @@ export default function Components() {
 
       </Head>
       <div>
-        <Header />
+        <h1>Content</h1>
       </div>
     </>
   )
