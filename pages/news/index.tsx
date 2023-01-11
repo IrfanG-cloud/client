@@ -1,7 +1,8 @@
 import Head from 'next/head'
+import Layout from '../../components/layout'
 import 'bootstrap/dist/css/bootstrap.css'
 
-export default function MainContent() {
+export default function News() {
   return (
     <>
       <Head>
@@ -11,7 +12,8 @@ export default function MainContent() {
 
       </Head>
       <div>
-        <h1>Content</h1>
+        <Layout />
+        <h1>latest news</h1>
       </div>
     </>
   )

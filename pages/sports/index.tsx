@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import 'bootstrap/dist/css/bootstrap.css'
 
-export default function MainContent() {
+export default function Sports() {
   return (
     <>
       <Head>
@@ -11,7 +11,7 @@ export default function MainContent() {
 
       </Head>
       <div>
-        <h1>Content</h1>
+        <h1>latest Sports</h1>
       </div>
     </>
   )

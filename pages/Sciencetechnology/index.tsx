@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import 'bootstrap/dist/css/bootstrap.css'
 
-export default function MainContent() {
+
+export default function Culture() {
   return (
     <>
       <Head>
@@ -11,7 +12,7 @@ export default function MainContent() {
 
       </Head>
       <div>
-        <h1>Content</h1>
+        <h1> Science and technology</h1>
       </div>
     </>
   )

@@ -1,4 +1,7 @@
 import Head from 'next/head'
+import Link from 'next/link'
+import 'bootstrap/dist/css/bootstrap.css'
+
 
 export default function Header() {
   return (
@@ -9,9 +12,30 @@ export default function Header() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
       </Head>
-      <div>
-        <h1>header</h1>
-      </div>
+
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <a className="navbar-brand" href="#">Navbar</a>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav">
+            <div className="nav-item active">
+                <Link className="nav-link" href="#">Home <span className="sr-only">(current)</span></Link>
+            </div>
+            <div className="nav-item">
+                <Link className="nav-link" href="#">Features</Link>
+            </div>
+            <div className="nav-item">
+                <Link className="nav-link" href="#">Pricing</Link>
+            </div>
+            <div className="nav-item">
+                <Link className="nav-link disabled" href="#">Disabled</Link>
+            </div>
+            </ul>
+        </div>
+        </nav>
+
     </>
   )
 }

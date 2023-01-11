@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import 'bootstrap/dist/css/bootstrap.css'
+import Header from '../../components/layout/header'
+import Footer from '../../components/layout/footer'
 
-export default function MainContent() {
+export default function Mix() {
   return (
     <>
       <Head>
@@ -11,7 +13,8 @@ export default function MainContent() {
 
       </Head>
       <div>
-        <h1>Content</h1>
+        <Header />
+        <Footer />
       </div>
     </>
   )
