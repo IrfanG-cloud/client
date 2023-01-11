@@ -12,30 +12,42 @@ export default function Header() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
       </Head>
-
+      <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="#">Navbar</a>
+        <a className="navbar-brand" href="#">CLIENT</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
             <div className="nav-item active">
-                <Link className="nav-link" href="#">Home <span className="sr-only">(current)</span></Link>
+                <Link className="nav-link" href="#">Latest News</Link>
             </div>
             <div className="nav-item">
-                <Link className="nav-link" href="#">Features</Link>
+                <Link className="nav-link" href="#">News</Link>
             </div>
             <div className="nav-item">
-                <Link className="nav-link" href="#">Pricing</Link>
+                <Link className="nav-link" href="#">Culture</Link>
             </div>
             <div className="nav-item">
-                <Link className="nav-link disabled" href="#">Disabled</Link>
+                <Link className="nav-link" href="#">Trends</Link>
+            </div>
+            <div className="nav-item">
+                <Link className="nav-link" href="#">Sports</Link>
+            </div>
+            <div className="nav-item">
+                <Link className="nav-link" href="#">Mix</Link>
+            </div>
+            <div className="nav-item">
+                <Link className="nav-link" href="#">Economie</Link>
+            </div>
+            <div className="nav-item">
+                <Link className="nav-link" href="#">Science and Technology</Link>
             </div>
             </ul>
         </div>
         </nav>
-
+      </div>
     </>
   )
 }

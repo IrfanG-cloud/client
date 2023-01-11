@@ -1,10 +1,8 @@
 import Head from 'next/head'
 import 'bootstrap/dist/css/bootstrap.css'
-import Stories from './stories'
-import Carousel from './carousel'
-import Investigions from './investigations'
+import StoriesImage from './storiesImage'
 
-export default function MainContent() {
+export default function Stories() {
   return (
     <>
       <Head>
@@ -13,9 +11,8 @@ export default function MainContent() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
       </Head>
-      <Stories />
-      <Carousel />
-      <Investigions />
+    
+      <StoriesImage/>
     </>
   )
 }
