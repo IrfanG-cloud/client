@@ -20,7 +20,22 @@ export default function StoriesImage() {
         </div>
         <div className="col-md-1">
           <div className="card">
-                <Link href="#"><Image className="rounded-circle" src="/bg-01.PNG" alt="Card image cap" width="80" height="80"></Image></Link>
+                <Link href="#"><Image className="rounded-circle" src="/bg-02.jpg" alt="Card image cap" width="80" height="80"></Image></Link>
+          </div>
+        </div>
+        <div className="col-md-1">
+          <div className="card">
+                <Link href="#"><Image className="rounded-circle" src="/bg-03.jpeg" alt="Card image cap" width="80" height="80"></Image></Link>
+          </div>
+        </div>
+        <div className="col-md-1">
+          <div className="card">
+                <Link href="#"><Image className="rounded-circle" src="/bg-04.jpg" alt="Card image cap" width="80" height="80"></Image></Link>
+          </div>
+        </div>
+        <div className="col-md-1">
+          <div className="card">
+                <Link href="#"><Image className="rounded-circle" src="/bg-02.jpg" alt="Card image cap" width="80" height="80"></Image></Link>
           </div>
         </div>
         <div className="col-md-1">
@@ -30,7 +45,12 @@ export default function StoriesImage() {
         </div>
         <div className="col-md-1">
           <div className="card">
-                <Link href="#"><Image className="rounded-circle" src="/bg-01.PNG" alt="Card image cap" width="80" height="80"></Image></Link>
+                <Link href="#"><Image className="rounded-circle" src="/bg-03.jpeg" alt="Card image cap" width="80" height="80"></Image></Link>
+          </div>
+        </div>
+        <div className="col-md-1">
+          <div className="card">
+                <Link href="#"><Image className="rounded-circle" src="/bg-04.jpg" alt="Card image cap" width="80" height="80"></Image></Link>
           </div>
         </div>
         <div className="col-md-1">
@@ -40,27 +60,7 @@ export default function StoriesImage() {
         </div>
         <div className="col-md-1">
           <div className="card">
-                <Link href="#"><Image className="rounded-circle" src="/bg-01.PNG" alt="Card image cap" width="80" height="80"></Image></Link>
-          </div>
-        </div>
-        <div className="col-md-1">
-          <div className="card">
-                <Link href="#"><Image className="rounded-circle" src="/bg-01.PNG" alt="Card image cap" width="80" height="80"></Image></Link>
-          </div>
-        </div>
-        <div className="col-md-1">
-          <div className="card">
-                <Link href="#"><Image className="rounded-circle" src="/bg-01.PNG" alt="Card image cap" width="80" height="80"></Image></Link>
-          </div>
-        </div>
-        <div className="col-md-1">
-          <div className="card">
-                <Link href="#"><Image className="rounded-circle" src="/bg-01.PNG" alt="Card image cap" width="80" height="80"></Image></Link>
-          </div>
-        </div>
-        <div className="col-md-1">
-          <div className="card">
-                <Link href="#"><Image className="rounded-circle" src="/bg-01.PNG" alt="Card image cap" width="80" height="80"></Image></Link>
+                <Link href="#"><Image className="rounded-circle" src="/bg-03.jpeg" alt="Card image cap" width="80" height="80"></Image></Link>
           </div>
         </div>
         <div className='col-md-2'>

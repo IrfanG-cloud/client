@@ -16,7 +16,7 @@ export default function Carousel() {
             <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                    <Image className="d-block w-100" src="/bg-01.PNG" alt="First slide" width="1100" height="600"></Image>
+                    <Image className="d-block w-100" src="/bg-03.jpeg" alt="First slide" width="1100" height="600"></Image>
                     </div>
                 </div>
             </div>
@@ -24,7 +24,15 @@ export default function Carousel() {
     <div className="row">
         <div className="col-md-3">
             <div className="card">
-                    <Image className="card-img-top" src="/bg-01.PNG" alt="Card image cap" width="200" height="200"></Image>
+                    <Image className="card-img-top" src="/bg-04.jpg" alt="Card image cap" width="200" height="200"></Image>
+                <div className="card-body">
+                    <p className="card-text">Some quick example text to build on the card</p>
+                </div>
+            </div>
+        </div>
+        <div className="col-md-3">
+            <div className="card">
+                    <Image className="card-img-top" src="/bg-03.jpeg" alt="Card image cap" width="200" height="200"></Image>
                 <div className="card-body">
                     <p className="card-text">Some quick example text to build on the card</p>
                 </div>
@@ -40,15 +48,7 @@ export default function Carousel() {
         </div>
         <div className="col-md-3">
             <div className="card">
-                    <Image className="card-img-top" src="/bg-01.PNG" alt="Card image cap" width="200" height="200"></Image>
-                <div className="card-body">
-                    <p className="card-text">Some quick example text to build on the card</p>
-                </div>
-            </div>
-        </div>
-        <div className="col-md-3">
-            <div className="card">
-                    <Image className="card-img-top" src="/bg-01.PNG" alt="Card image cap" width="200" height="200"></Image>
+                    <Image className="card-img-top" src="/bg-02.jpg" alt="Card image cap" width="200" height="200"></Image>
                 <div className="card-body">
                     <p className="card-text">Some quick example text to build on the card</p>
                 </div>

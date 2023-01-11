@@ -3,6 +3,10 @@ import 'bootstrap/dist/css/bootstrap.css'
 import Stories from './stories'
 import Carousel from './carousel'
 import Investigions from './investigations'
+import Video from './video'
+import Sports from './sports'
+import ScienceTechnology from './scienceTechnology'
+import Economie from './Economie'
 
 export default function MainContent() {
   return (
@@ -16,6 +20,10 @@ export default function MainContent() {
       <Stories />
       <Carousel />
       <Investigions />
+      <Video />
+      <Sports />
+      <ScienceTechnology />
+      <Economie />
     </>
   )
 }

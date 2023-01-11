@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import 'bootstrap/dist/css/bootstrap.css'
+import Header from '../../components/layout/header'
+import Footer from '../../components/layout/footer'
 
 
 export default function Culture() {
@@ -11,8 +13,10 @@ export default function Culture() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
       </Head>
-      <div>
-        <h1> Science and technology</h1>
+      <div className="container">
+        <Header />
+        <h1>Science and Technology</h1>
+        <Footer />
       </div>
     </>
   )

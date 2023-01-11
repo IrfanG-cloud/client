@@ -14,35 +14,35 @@ export default function Header() {
       </Head>
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="#">CLIENT</a>
+        <Link className="navbar-brand" href="/">CLIENT</Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
             <div className="nav-item active">
-                <Link className="nav-link" href="#">Latest News</Link>
+                <Link className="nav-link" href="/latestNews">Latest News</Link>
             </div>
             <div className="nav-item">
-                <Link className="nav-link" href="#">News</Link>
+                <Link className="nav-link" href="/news">News</Link>
             </div>
             <div className="nav-item">
-                <Link className="nav-link" href="#">Culture</Link>
+                <Link className="nav-link" href="/culture">Culture</Link>
             </div>
             <div className="nav-item">
-                <Link className="nav-link" href="#">Trends</Link>
+                <Link className="nav-link" href="/trends">Trends</Link>
             </div>
             <div className="nav-item">
-                <Link className="nav-link" href="#">Sports</Link>
+                <Link className="nav-link" href="/sports">Sports</Link>
             </div>
             <div className="nav-item">
-                <Link className="nav-link" href="#">Mix</Link>
+                <Link className="nav-link" href="/mix">Mix</Link>
             </div>
             <div className="nav-item">
-                <Link className="nav-link" href="#">Economie</Link>
+                <Link className="nav-link" href="/Economie">Economie</Link>
             </div>
             <div className="nav-item">
-                <Link className="nav-link" href="#">Science and Technology</Link>
+                <Link className="nav-link" href="/Sciencetechnology">Science and Technology</Link>
             </div>
             </ul>
         </div>

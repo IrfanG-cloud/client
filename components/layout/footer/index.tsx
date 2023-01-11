@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import 'bootstrap/dist/css/bootstrap.css'
+import Header from '../header'
 
 export default function Footer() {
   return (
@@ -10,8 +11,18 @@ export default function Footer() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
       </Head>
-      <div>
-        <h1>Footer</h1>
+      <div className='container'>
+        <div className="row">
+        <Header />
+          <div className="col-md-6">
+            <p>All rights reserved ©️ 2023 Eram Media Company- Client LLC</p>
+          </div>
+          <div className='col-md-6'>
+            <p>Social Icon</p>
+          </div>
+        
+        </div>
+        
       </div>
     </>
   )
