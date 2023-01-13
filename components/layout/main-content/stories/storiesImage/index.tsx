@@ -12,7 +12,7 @@ export default function StoriesImage() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
       </Head> */}
-      <div className="row">
+      <div className="row px-4">
         <div className="col-md-1">
           <div className="card">
                 <Link href="#"><Image className="rounded-circle" src="/bg-01.PNG" alt="Card image cap" width="80" height="80"></Image></Link>
@@ -64,7 +64,7 @@ export default function StoriesImage() {
           </div>
         </div>
         <div className='col-md-2'>
-          <button className="rounded-circle">Carousel Button</button>
+          <button className="rounded-circle">More</button>
         </div>
     </div>
     </>
